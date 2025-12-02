@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSI Drive Club | Strategic Proposal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #1e3a8a, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+            background-color: #f3f4f6;
+            background-image: radial-gradient(#d1d5db 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        /* Loading Spinner */
+        .loader {
+            border: 3px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 3px solid #3b82f6;
+            width: 20px;
+            height: 20px;
+            -webkit-animation: spin 1s linear infinite; /* Safari */
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="font-bold text-xl tracking-tight text-blue-900">TSI<span class="text-blue-500">GROUP</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+                    <a href="#concept" class="hover:text-blue-600 transition">The Concept</a>
+                    <a href="#mechanism" class="hover:text-blue-600 transition">Mechanism</a>
+                    <a href="#rewards" class="hover:text-blue-600 transition">Rewards</a>
+                    <a href="#ogsm" class="hover:text-blue-600 transition">Execution</a>
+                    <a href="#ai-demo" class="hover:text-blue-600 transition text-blue-600 font-bold">✨ AI Ops</a>
+                </div>
+                <div>
+                    <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded border border-blue-400">Internal Brief</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg py-20 lg:py-32 relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-4 text-center relative z-10">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-sm font-medium mb-6">
+                <i data-lucide="award" class="w-4 h-4"></i> Official Marketing Proposal
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold text-gray-900 mb-6 tracking-tight">
+                TSI <span class="text-blue-700">Drive Club</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                Turning our top customers into <span class="font-bold text-gray-900">Mobile Billboards</span>.
+                <br>A strategic initiative to drive street-level visibility and retention.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#concept" class="inline-flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-white bg-blue-800 hover:bg-blue-900 transition shadow-lg">
+                    Explore the Strategy
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Strategic Value -->
+    <section id="concept" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Why This Strategy?</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto rounded"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- Point 1 -->
+                <div class="p-8 bg-gray-50 rounded-2xl border border-gray-100 card-hover transition duration-300">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6 text-blue-700">
+                        <i data-lucide="map-pin" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Guerrilla Visibility</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Kota Bharu is a driving city. Every car sticker is a moving billboard. By targeting our top customers, we ensure our brand is seen in affluent areas.
+                    </p>
+                </div>
+                <!-- Point 2 -->
+                <div class="p-8 bg-gray-50 rounded-2xl border border-gray-100 card-hover transition duration-300">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-6 text-purple-700">
+                        <i data-lucide="crown" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Status & Exclusivity</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Scarcity drives desire. By limiting stickers to "Top 5" lists, we gamify the shopping experience. Customers will compete to stay on top.
+                    </p>
+                </div>
+                <!-- Point 3 -->
+                <div class="p-8 bg-gray-50 rounded-2xl border border-gray-100 card-hover transition duration-300">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6 text-green-700">
+                        <i data-lucide="refresh-cw" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Ecosystem Lock-in</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Cross-pollination. A construction client (TSI) becomes a food customer (Layang) because the VIP perks follow them across the group.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Mechanism -->
+    <section id="mechanism" class="py-20 bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">The "Top 5" Mechanism</h2>
+                    <p class="text-gray-400 text-lg mb-8">
+                        We don't give stickers to everyone. To maintain prestige, eligibility is strictly performance-based.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0 font-bold">1</div>
+                            <div>
+                                <h4 class="text-xl font-bold">The Legends (Cumulative)</h4>
+                                <p class="text-gray-400 mt-1">Top 5 cumulative spenders since Jan 1, 2023. This honors long-term loyalty and stability.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center flex-shrink-0 font-bold">2</div>
+                            <div>
+                                <h4 class="text-xl font-bold">The Challengers (Monthly)</h4>
+                                <p class="text-gray-400 mt-1">Top 5 spenders of the current month. This encourages new customers to "chase" the leaderboard.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center flex-shrink-0 font-bold">!</div>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-200">The "No-Hogging" Rule</h4>
+                                <p class="text-gray-400 mt-1">1 Customer = 1 Sticker. If a winner already has a sticker, the reward passes to the next eligible person. Maximum fleet distribution.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="absolute inset-0 bg-blue-500 blur-3xl opacity-20 rounded-full"></div>
+                    <div class="relative bg-gray-800 p-8 rounded-2xl border border-gray-700">
+                        <h3 class="text-lg font-semibold text-gray-300 mb-6 border-b border-gray-700 pb-4">Eligibility Timeline</h3>
+                        
+                        <!-- Timeline Item -->
+                        <div class="border-l-2 border-blue-500 pl-6 pb-8 relative">
+                            <div class="absolute -left-[9px] top-0 w-4 h-4 bg-blue-500 rounded-full"></div>
+                            <span class="text-blue-400 text-sm font-bold">PHASE 1: STARTUP</span>
+                            <h4 class="text-white font-bold mt-1">Jan 2026 Launch</h4>
+                            <p class="text-gray-400 text-sm mt-1">Award Top 5 from 2023-2025 Data.</p>
+                        </div>
+
+                        <!-- Timeline Item -->
+                        <div class="border-l-2 border-gray-600 pl-6 pb-8 relative">
+                            <div class="absolute -left-[9px] top-0 w-4 h-4 bg-gray-600 rounded-full"></div>
+                            <span class="text-gray-400 text-sm font-bold">PHASE 2: MONTHLY CYCLE</span>
+                            <h4 class="text-white font-bold mt-1">Feb 2026 Onwards</h4>
+                            <p class="text-gray-400 text-sm mt-1">Evaluate Top 5 Monthly. Winners announced 1st week of following month.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rewards & Surprise -->
+    <section id="rewards" class="py-20 bg-blue-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="text-blue-600 font-bold tracking-wider uppercase text-sm">The "Surprise & Delight" Model</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">Rewards that Excite</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto mt-4">
+                    Instead of a boring flat discount, we use <strong>Variable Rewards</strong> triggered by spending thresholds. This creates anticipation.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200">
+                <div class="grid md:grid-cols-4 bg-blue-900 text-white font-semibold text-sm p-4 hidden md:grid">
+                    <div>Reward Tier</div>
+                    <div>Spending Threshold</div>
+                    <div>Surprise Value (~2%)</div>
+                    <div>Strategy</div>
+                </div>
+                
+                <!-- Tier S -->
+                <div class="grid md:grid-cols-4 p-6 border-b border-gray-100 hover:bg-gray-50 transition items-center">
+                    <div class="font-bold text-blue-900 flex items-center gap-2">
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded text-xs">TIER S</span>
+                    </div>
+                    <div class="text-gray-700 mt-2 md:mt-0"><span class="md:hidden font-bold">Spend: </span>RM 300</div>
+                    <div class="text-green-600 font-bold mt-2 md:mt-0"><span class="md:hidden text-gray-500 font-normal">Value: </span>~RM 6.00</div>
+                    <div class="text-gray-500 text-sm mt-2 md:mt-0">"Warm Welcome." Small snacks, testers, or practical items.</div>
+                </div>
+
+                <!-- Tier M -->
+                <div class="grid md:grid-cols-4 p-6 border-b border-gray-100 hover:bg-gray-50 transition items-center">
+                    <div class="font-bold text-blue-900 flex items-center gap-2">
+                        <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded text-xs">TIER M</span>
+                    </div>
+                    <div class="text-gray-700 mt-2 md:mt-0"><span class="md:hidden font-bold">Spend: </span>RM 1,000</div>
+                    <div class="text-green-600 font-bold mt-2 md:mt-0"><span class="md:hidden text-gray-500 font-normal">Value: </span>~RM 20.00</div>
+                    <div class="text-gray-500 text-sm mt-2 md:mt-0">"Signature Gift." Clearance stock or new product full-size samples.</div>
+                </div>
+
+                <!-- Tier L -->
+                <div class="grid md:grid-cols-4 p-6 hover:bg-gray-50 transition items-center bg-yellow-50/50">
+                    <div class="font-bold text-blue-900 flex items-center gap-2">
+                        <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded text-xs">TIER L</span>
+                    </div>
+                    <div class="text-gray-700 mt-2 md:mt-0"><span class="md:hidden font-bold">Spend: </span>RM 5,000</div>
+                    <div class="text-green-600 font-bold mt-2 md:mt-0"><span class="md:hidden text-gray-500 font-normal">Value: </span>~RM 100.00</div>
+                    <div class="text-gray-500 text-sm mt-2 md:mt-0">"Premium Family." High-value items that make them feel elite.</div>
+                </div>
+            </div>
+
+            <!-- Budget Box -->
+            <div class="mt-8 p-6 bg-gray-800 rounded-xl text-white flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                    <h4 class="text-lg font-bold flex items-center gap-2"><i data-lucide="pie-chart" class="w-5 h-5"></i> Financial Logic</h4>
+                    <p class="text-gray-300 text-sm mt-1">Industry standard marketing budget for Retail/F&B is 3-5%. We are proposing a conservative <span class="text-white font-bold">2% Reinvestment</span> of VIP Sales Volume.</p>
+                </div>
+                <div class="text-right">
+                    <span class="block text-xs text-gray-400 uppercase tracking-wide">Allocated Budget</span>
+                    <span class="text-3xl font-bold text-green-400">2.0%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Ecosystem -->
+    <section id="ecosystem" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
+                    <div class="relative bg-gray-100 rounded-xl p-8 border border-gray-200">
+                        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full text-xs font-bold shadow-sm text-gray-500">GROUP SYNERGY</div>
+                        <div class="space-y-4">
+                            <!-- Example Card -->
+                            <div class="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm">
+                                <div class="w-12 h-12 bg-gray-800 rounded flex items-center justify-center text-white font-bold text-xs">TSI</div>
+                                <div>
+                                    <p class="text-sm font-bold text-gray-900">VIP Customer A</p>
+                                    <p class="text-xs text-green-600 flex items-center gap-1"><i data-lucide="check-circle" class="w-3 h-3"></i> Has TSI Sticker</p>
+                                </div>
+                            </div>
+                            <div class="flex justify-center">
+                                <i data-lucide="arrow-down" class="text-gray-400 w-5 h-5"></i>
+                            </div>
+                            <!-- Example Cross Pollination -->
+                            <div class="flex items-center gap-4 bg-blue-50 p-4 rounded-lg border border-blue-100">
+                                <div class="w-12 h-12 bg-red-600 rounded flex items-center justify-center text-white font-bold text-xs text-center leading-none">Layang<br>Food</div>
+                                <div>
+                                    <p class="text-sm font-bold text-gray-900">Visits Layang Food</p>
+                                    <p class="text-xs text-blue-600">Recognized as VIP. Gets Tier S Gift.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2">
+                    <h2 class="text-3xl font-bold mb-6">One Group. Multiple Brands.</h2>
+                    <p class="text-gray-600 text-lg mb-6">
+                        We propose that <strong>CM, Drexham, TSS, and Layang Food</strong> participate in the program. 
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="text-blue-600 w-5 h-5 mt-1"></i>
+                            <span class="text-gray-700"><strong>Distinct Branding:</strong> Each entity issues its own branded sticker to build specific awareness.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="text-blue-600 w-5 h-5 mt-1"></i>
+                            <span class="text-gray-700"><strong>Shared Privileges:</strong> A VIP at one is a VIP at all.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="text-blue-600 w-5 h-5 mt-1"></i>
+                            <span class="text-gray-700"><strong>Data Unification:</strong> We capture data on construction clients who also buy food/tableware.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OGSM Execution Plan -->
+    <section id="ogsm" class="py-20 bg-gray-50 border-t border-gray-200">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">Execution Plan (OGSM)</h2>
+                <p class="text-gray-600">From Idea to Reality.</p>
+            </div>
+
+            <div class="grid gap-6">
+                <!-- Objective -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-blue-600">
+                    <h3 class="text-blue-800 font-bold uppercase text-sm tracking-wider mb-2">Objective</h3>
+                    <p class="text-xl font-medium text-gray-900">To build the most visible and loyal customer community in Kota Bharu by 2026.</p>
+                </div>
+
+                <!-- Goals -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-green-500">
+                    <h3 class="text-green-700 font-bold uppercase text-sm tracking-wider mb-2">Goals</h3>
+                    <div class="grid sm:grid-cols-3 gap-4">
+                        <div class="bg-green-50 p-3 rounded">
+                            <span class="block text-2xl font-bold text-green-800">60</span>
+                            <span class="text-sm text-green-700">Active "Mobile Billboard" Cars in Year 1</span>
+                        </div>
+                        <div class="bg-green-50 p-3 rounded">
+                            <span class="block text-2xl font-bold text-green-800">+15%</span>
+                            <span class="text-sm text-green-700">Repeat Purchase Frequency</span>
+                        </div>
+                        <div class="bg-green-50 p-3 rounded">
+                            <span class="block text-2xl font-bold text-green-800">100%</span>
+                            <span class="text-sm text-green-700">Cross-Group Acceptance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Strategies & Measures -->
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-purple-500">
+                        <h3 class="text-purple-700 font-bold uppercase text-sm tracking-wider mb-2">Key Strategies</h3>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li class="flex gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-purple-500"></i> Gamify spending via "Leaderboards".</li>
+                            <li class="flex gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-purple-500"></i> Turn Handover into a PR Event (Photo/Video).</li>
+                            <li class="flex gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-purple-500"></i> Centralized Verification via Google Sheets.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-orange-500">
+                        <h3 class="text-orange-700 font-bold uppercase text-sm tracking-wider mb-2">Measures (KPIs)</h3>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li class="flex gap-2"><i data-lucide="bar-chart-2" class="w-4 h-4 text-orange-500"></i> Monthly Sticker Distribution Rate.</li>
+                            <li class="flex gap-2"><i data-lucide="bar-chart-2" class="w-4 h-4 text-orange-500"></i> Gift Redemption Rate (Engagement).</li>
+                            <li class="flex gap-2"><i data-lucide="bar-chart-2" class="w-4 h-4 text-orange-500"></i> Social Media Impressions from Winner Posts.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- AI OPERATIONS DEMO SECTION -->
+    <section id="ai-demo" class="py-20 bg-slate-900 text-white relative overflow-hidden">
+        <!-- Decoration -->
+        <div class="absolute top-0 right-0 w-64 h-64 bg-blue-600 rounded-full blur-[100px] opacity-20"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-purple-600 rounded-full blur-[100px] opacity-20"></div>
+
+        <div class="max-w-6xl mx-auto px-4 relative z-10">
+            <div class="text-center mb-12">
+                <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-900 border border-blue-700 text-blue-300 text-xs font-bold uppercase tracking-wider mb-4">
+                    <i data-lucide="sparkles" class="w-3 h-3"></i> Future-Proofing
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">AI-Powered Operations</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    We can automate the tedious parts of the campaign using Gemini AI. Test the operational tools below.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- Tool 1: Caption Generator -->
+                <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700 shadow-xl">
+                    <h3 class="text-xl font-bold flex items-center gap-2 mb-4 text-blue-400">
+                        <i data-lucide="instagram" class="w-5 h-5"></i> Smart Caption Generator
+                    </h3>
+                    <p class="text-sm text-gray-400 mb-6">Generates the "SOP" social media post instantly for any winner.</p>
+                    
+                    <div class="space-y-3">
+                        <input type="text" id="winnerName" placeholder="Winner Name (e.g., Mr. Tan)" class="w-full bg-slate-900 border border-slate-600 rounded px-4 py-2 text-sm text-white focus:outline-none focus:border-blue-500">
+                        <select id="winBrand" class="w-full bg-slate-900 border border-slate-600 rounded px-4 py-2 text-sm text-white focus:outline-none focus:border-blue-500">
+                            <option value="TSI Construction">TSI Construction</option>
+                            <option value="Layang Food">Layang Food</option>
+                            <option value="Drexham">Drexham</option>
+                        </select>
+                        <button onclick="generateSocialPost()" class="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white font-bold py-2 rounded flex items-center justify-center gap-2 transition">
+                            <span id="btnText1">✨ Generate Post</span>
+                            <div id="loader1" class="loader hidden"></div>
+                        </button>
+                    </div>
+
+                    <div id="postResult" class="mt-6 p-4 bg-slate-900 rounded-lg border border-slate-700 text-sm text-gray-300 min-h-[100px] hidden">
+                        <!-- Result goes here -->
+                    </div>
+                </div>
+
+                <!-- Tool 2: Gift Recommender -->
+                <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700 shadow-xl">
+                    <h3 class="text-xl font-bold flex items-center gap-2 mb-4 text-purple-400">
+                        <i data-lucide="gift" class="w-5 h-5"></i> Smart Gift Recommender
+                    </h3>
+                    <p class="text-sm text-gray-400 mb-6">Suggests the perfect "Surprise" from our inventory based on data.</p>
+                    
+                    <div class="space-y-3">
+                        <input type="number" id="spendAmount" placeholder="Spend Amount (RM)" class="w-full bg-slate-900 border border-slate-600 rounded px-4 py-2 text-sm text-white focus:outline-none focus:border-purple-500">
+                        <input type="text" id="customerInterest" placeholder="Customer Interest (e.g., Spicy food, DIY)" class="w-full bg-slate-900 border border-slate-600 rounded px-4 py-2 text-sm text-white focus:outline-none focus:border-purple-500">
+                        <button onclick="generateGiftIdea()" class="w-full bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-500 hover:to-purple-400 text-white font-bold py-2 rounded flex items-center justify-center gap-2 transition">
+                            <span id="btnText2">✨ Find Perfect Gift</span>
+                            <div id="loader2" class="loader hidden"></div>
+                        </button>
+                    </div>
+
+                    <div id="giftResult" class="mt-6 p-4 bg-slate-900 rounded-lg border border-slate-700 text-sm text-gray-300 min-h-[100px] hidden">
+                        <!-- Result goes here -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Operational SOP -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+             <h2 class="text-2xl font-bold text-gray-900 mb-8 text-center">Operational Workflow</h2>
+             <div class="relative border-l-2 border-gray-200 ml-4 md:ml-0 space-y-10">
+                 
+                 <div class="relative pl-8 md:pl-0">
+                     <div class="absolute -left-[9px] top-0 w-4 h-4 bg-gray-300 rounded-full md:left-1/2 md:-ml-2"></div>
+                     <div class="md:flex md:justify-between md:items-center w-full">
+                         <div class="md:w-[45%] md:text-right md:pr-8">
+                             <h4 class="font-bold text-lg">1. Announcement</h4>
+                             <p class="text-sm text-gray-600 mt-1">Monthly highlight post on Social Media. "Check your WhatsApp for your invite."</p>
+                         </div>
+                         <div class="md:w-[45%] mt-2 md:mt-0 md:pl-8"></div>
+                     </div>
+                 </div>
+
+                 <div class="relative pl-8 md:pl-0">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 bg-gray-300 rounded-full md:left-1/2 md:-ml-2"></div>
+                    <div class="md:flex md:justify-between md:items-center w-full">
+                        <div class="md:w-[45%] md:text-right md:pr-8 hidden md:block"></div>
+                        <div class="md:w-[45%] md:pl-8">
+                            <h4 class="font-bold text-lg">2. Verification</h4>
+                            <p class="text-sm text-gray-600 mt-1">Winners updated in Central Excel/Sheet. Frontline staff check IC/Phone No against list.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative pl-8 md:pl-0">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 bg-blue-600 rounded-full md:left-1/2 md:-ml-2 shadow-lg shadow-blue-200"></div>
+                    <div class="md:flex md:justify-between md:items-center w-full">
+                        <div class="md:w-[45%] md:text-right md:pr-8">
+                            <h4 class="font-bold text-lg text-blue-700">3. The Ceremony</h4>
+                            <p class="text-sm text-gray-600 mt-1">Winner receives Sticker + Tier S Gift. <span class="font-bold text-gray-800">Mandatory Photo/Video</span> taken for next month's content.</p>
+                        </div>
+                        <div class="md:w-[45%] mt-2 md:mt-0 md:pl-8"></div>
+                    </div>
+                </div>
+
+             </div>
+        </div>
+    </section>
+
+    <!-- Footer / Action -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold mb-6">Decision Required</h2>
+            <p class="text-gray-400 mb-8 max-w-2xl mx-auto">
+                To proceed with the January 2026 launch, we seek approval on the following:
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 mb-10">
+                <div class="bg-gray-800 px-6 py-3 rounded-lg border border-gray-700 flex items-center gap-3">
+                    <div class="w-4 h-4 border border-gray-400 rounded-sm"></div>
+                    <span class="text-sm">Approve 2% Budget Allocation</span>
+                </div>
+                <div class="bg-gray-800 px-6 py-3 rounded-lg border border-gray-700 flex items-center gap-3">
+                    <div class="w-4 h-4 border border-gray-400 rounded-sm"></div>
+                    <span class="text-sm">Authorize Group Collaboration (CM, Drexham, etc.)</span>
+                </div>
+            </div>
+            
+            <div class="text-gray-500 text-xs">
+                &copy; 2025 TSI Group. Internal Use Only.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        // GEMINI API INTEGRATION
+        const apiKey = ""; // Set by environment
+
+        async function callGemini(prompt) {
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+            const payload = {
+                contents: [{
+                    parts: [{ text: prompt }]
+                }]
+            };
+
+            try {
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const data = await response.json();
+                return data.candidates[0].content.parts[0].text;
+            } catch (error) {
+                console.error("Gemini API Error:", error);
+                return "Error connecting to AI. Please try again.";
+            }
+        }
+
+        async function generateSocialPost() {
+            const name = document.getElementById('winnerName').value || "Our VIP";
+            const brand = document.getElementById('winBrand').value;
+            const btnText = document.getElementById('btnText1');
+            const loader = document.getElementById('loader1');
+            const resultBox = document.getElementById('postResult');
+
+            btnText.classList.add('hidden');
+            loader.classList.remove('hidden');
+
+            const prompt = `Write a short, exciting Facebook post (max 50 words) announcing ${name} as the "TSI Drive Club" winner for ${brand}. Mention they get a Car Sticker and a Surprise Gift. Use emojis. Tone: Exclusive and celebratory. Hashtags: #TSIDriveClub #KotaBharu #${brand.replace(' ','')}`;
+
+            const result = await callGemini(prompt);
+
+            btnText.classList.remove('hidden');
+            loader.classList.add('hidden');
+            resultBox.classList.remove('hidden');
+            resultBox.innerText = result;
+        }
+
+        async function generateGiftIdea() {
+            const spend = document.getElementById('spendAmount').value || "300";
+            const interest = document.getElementById('customerInterest').value || "General";
+            const btnText = document.getElementById('btnText2');
+            const loader = document.getElementById('loader2');
+            const resultBox = document.getElementById('giftResult');
+
+            btnText.classList.add('hidden');
+            loader.classList.remove('hidden');
+
+            const prompt = `Suggest ONE specific "Surprise Gift" item from a Malaysian trading/retail inventory (Construction materials, Tableware, or Snacks) for a customer who spent RM${spend} and likes "${interest}". Calculate 2% of the spend as the budget. Suggest a specific item within that budget. Explain in 1 sentence why this gift fits the customer.`;
+
+            const result = await callGemini(prompt);
+
+            btnText.classList.remove('hidden');
+            loader.classList.add('hidden');
+            resultBox.classList.remove('hidden');
+            resultBox.innerText = result;
+        }
+    </script>
+</body>
+</html>
